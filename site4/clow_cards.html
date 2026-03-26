@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href="resources/icon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="color.css" media="screen">
+		<link rel="stylesheet" href="color_print.css" media="print">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Navigation & Forms Page Assignment</title>
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+	</head>
+
+	<body>
+		<div>
+			<header>
+				<h1 class="display-3 fw-bold">Card Captor</h1>
+			</header>
+			<div>
+				<nav class="navbar navbar-expand-lg bg-cc-blue">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="#">
+						  <img src="resources/icon.ico" class="imgSize" alt="Bootstrap" width="30" height="24">
+						</a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+									<li class="nav-item">
+										<a class="nav-link active" aria-current="page" href="chapter6.html">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="https://ccsakura.fandom.com/wiki/Cardcaptor_Sakura">Link</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Dropdown
+										</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="characters.html">About the Characters</a></li>
+											<li><a class="dropdown-item" href="clow_cards.html">Clow Cards</a></li>
+											<li><hr class="dropdown-divider"></li>
+											<li><a class="dropdown-item" href="form/html">Form</a></li>
+										</ul>
+									</li>
+									<div class="form-check form-switch">
+									  <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+									  <label class="form-check-label" for="switchCheckDefault">Click me!</label>
+									</div>
+								</ul>
+							<form class="d-flex" role="search">
+								<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+								<button class="btn btn-outline-success" type="submit">Search</button>
+							</form>
+						</div>
+					</div>
+				</nav>
+			</div>
+				<script> 
+					document.getElementById("switchCheckDefault").addEventListener("change", function () { 
+					if (this.checked) { 
+					window.location.href = "index2.html"; 
+					} 
+				}); 
+				</script>
+			
+		</div>
+		
+		<div class="container mt-3">
+			<h1 class="display-5">Overview</h1>
+				<p class="fst-italic p-4">
+					Counting the Clow Cards there are the nineteen (in the manga) or fifty-three (in the anime). They are magical, 
+					mystical cards used in the first two seasons of Cardcaptor Sakura. In the third season, the cards are 
+					transformed into Sakura Cards in order to adapt to the magic of their new master, Sakura Kinomoto. <br>
+					Each Clow Card has its own personality, ranging from good-natured to violent and its own powers that are mostly 
+					centered around an elemental force or performing a specific task. When in use or acting on their own, the cards 
+					assume alternative forms that vary from card to card. <br>
+					The Sakura Cards are the Clow Cards transformed by Sakura's own magic as it further develops and grows stronger.
+				</p>
+		</div>
+		
+		<div class="container mt-3">
+			<h1 class="display-5">Clow Cards and Sakura Cards</h1>
+				<div class="row g-4">
+					<div class="col-md-3">
+						<div class="card" style="width: 18rem;">
+							<img src="resources/cCards.jpg" class="card-img-top" alt="Clow Cards">
+							<div class="card-body">
+								<h1 class="display-6">Clow Cards</h1>
+								<p class="card-text">Clow Cards are tall, tarot‑style cards with unified sun–moon motifs and purple‑backed illustrations of characters or objects representing each card’s power, sometimes appearing in paired “sister” designs.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-3">
+						<div class="card" style="width: 18rem;">
+							<img src="resources/sCards.png" class="card-img-top" alt="Sakura Cards">
+							<div class="card-body">
+								<h1 class="display-6">Sakura Cards</h1>
+								<p class="card-text">When Sakura transforms the Clow Cards, they become pink, star‑themed Sakura Cards with new gold accents, a twelve‑point star on the back, and a redesigned front featuring a large star and Japanese naming. The anime keeps the original figures with pink tones, while the manga gives many cards new details, with some—like The Sword and The Shield—changing entirely.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+		</div>
+	</body>
+</html>
