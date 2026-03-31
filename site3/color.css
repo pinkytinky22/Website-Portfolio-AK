@@ -18,6 +18,8 @@ body {
 .text-overlay {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
+
+/*Nav*/
 .color-white { color: white; }
 
 .nav-link:hover {
@@ -26,8 +28,7 @@ body {
     transition: all 0.2s ease;
 }
 
-/*Back Color*/
 .bg-sb {
-    background-color: #e60012 !important; /* vibrant purple */
+    background-color: #0055a4 !important;
     color: white !important;
 }
