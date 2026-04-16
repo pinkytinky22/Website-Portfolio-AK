@@ -1,0 +1,34 @@
+/*Background*/
+body { 
+	background-image: url(Resources/Back.png);
+	background-size: cover; background-repeat: no-repeat;
+	background-position: center; background-attachment: fixed;
+	min-height: 100vh;
+}
+.transparent-container { 
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 20px; 
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+	
+/*Text Color*/
+.spidey-red { color: #e60012; }
+.spidey-blue { color: #0055a4; }
+.text-overlay {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/*Nav*/
+.color-white { color: white; }
+
+.nav-link:hover {
+    color: #ffd1ff !important;
+    text-shadow: 0 0 5px rgba(255,255,255,0.6);
+    transition: all 0.2s ease;
+}
+
+.bg-sb {
+    background-color: #0055a4 !important;
+    color: white !important;
+}

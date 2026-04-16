@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<link rel="icon" href="Resources\Icon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="color.css" media="screen">
+	<link rel="stylesheet" href="color_print.css" media="print">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Grid Assignment</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+		<nav class="navbar navbar-expand-lg bg-sb">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+				  <img src="../resources_main/icon1.ico" class="imgSize" alt="Bootstrap" width="30" height="24">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="../portfolio.html"><b>Home</b></a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<b>Sites</b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="site1/crafts.html">Site1</a></li>
+								<li><a class="dropdown-item" href="site2/jem.html">Site2</a></li>
+								<li><a class="dropdown-item" href="site3/game.html">Site3</a></li>
+								<li><a class="dropdown-item" href="site4/card_captor.html">Site4</a></li>
+							</ul>
+						</li>
+					<form class="d-flex" role="search" id="siteSearchForm">
+						<input class="form-control me-2" type="search" id="searchInput" placeholder="Search">
+						<button class="btn btn-outline-success" type="submit"><b>Search</b></button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+  <body>
+
+    <div class="container transparent-container mt-4">
+
+		<h1 class="text-center mb-4 text-white text-overlay">Marvel Spider-Man Games</h1>
+
+		<!-- Row 1: Three Equal Columns -->
+		<div class="row">
+			<div class="col-md-4 col-12">
+				<h3 class="text-white text-overlay">Marvel Spider-Man</h3>
+				<p class="spidey-red text-overlay">
+					Marvel's Spider-Man is an action-adventure game that follows Peter Parker, a 23-year-old college graduate 
+					and research assistant who gained superhuman abilities after being bitten by a radioactive spider. The game 
+					is set in a fictionalized version of modern-day New York City and allows players to control Spider-Man 
+					throughout Manhattan. The gameplay involves swinging through the city, climbing buildings, and using web 
+					gadgets to fight enemies. The game features an open-world sandbox, where players can engage in combat, 
+					puzzles, and stealth sections. The narrative is driven by the threat of a new villain, Mister Negative, 
+					who poses a danger to the city and Peter's personal life. The game is praised for its authentic representation 
+					of Spider-Man, its engaging gameplay, and its faithful adaptation of the Marvel Comics universe.
+				</p>
+				<img src="Resources\SM.jpg" class="d-block mx-auto" width="170" height="220" alt="Spider-Man Game Cover">
+			</div>
+			<div class="col-md-4 col-12">
+				<h3 class="text-white text-overlay">Marvel Spider-Man Miles Morales</h3>
+				<p class="spidey-blue text-overlay">
+					Marvel's Spider-Man: Miles Morales is an action-adventure game that centers around Miles Morales. A 
+					teenager who is adjusting to his new life in Harlem while following in the footsteps of his mentor, 
+					Peter Parker. When a power struggle between the Roxxon Energy Corporation and a high-tech criminal 
+					group called the Underground threatens his home, Miles must step up to protect his community and 
+					fully embrace his identity as Spider-Man. The game explores themes of responsibility, belonging, 
+					and the challenges of being a hero.
+				</p>
+				<img src="Resources\SMMM.jpg" class="d-block mx-auto" width="190" height="220" alt="Spider-Man Miles Morales Game Cover">
+			</div>
+			<div class="col-md-4 col-12">
+				<h3 class="text-white text-overlay">Marvel Spider-Man 2</h3>
+				<p class="spidey-red text-overlay">
+					Marvel's Spider-Man 2 is an action-adventure game that follows the story of Peter Parker and Miles Morales 
+					as they face new threats in Marvel's New York. The game features two main playable characters, each with 
+					unique abilities and storylines. Players can switch between Peter and Miles, each with their own combat 
+					abilities and skill trees. The game introduces new traversal mechanics, such as Web Wings, and enhances 
+					combat with new gadgets and parrying. The narrative is driven by the bond between Peter and the Venom symbiote
+					, which alters his behavior and grants him powerful abilities. The game also includes side missions, 
+					collectibles, and the ability to switch between Peter and Miles for dedicated objectives. Marvel's Spider-Man 
+					2 is available on PC and PlayStation 5, with a Microsoft Windows port released on January 30, 2025.
+				</p>
+				<img src="Resources\SM2.png" class="d-block mx-auto" width="180" height="220" alt="Spider-Man 2 Game Cover">
+			</div>
+		</div>
+
+		<hr>
+
+		<!-- Row 2: Unequal Columns (must total 12) -->
+		<div class="row">
+			<div class="col-md-8">
+				<h3 class="text-white text-overlay">Marvel Spider-Man DLC</h3>
+				<p class="spidey-red text-overlay">
+					Marvel's Spider-Man: The City That Never Sleeps is a DLC that expands the narrative of the game by three 
+					months after its conclusion. It follows Spider-Man as he faces a new crime wave led by the mob boss 
+					Hammerhead. The DLC is presented in three chapters: The Heist, Turf Wars, and Silver Lining, each offering 
+					new story content and missions. Players can unlock new gadgets and suits by progressing through the main 
+					story or completing tasks. The DLC is accessible from the main menu and takes place in a separate instance 
+					of New York City, excluding the main game's story, side missions, and random crimes.
+				</p>
+				<img src="Resources\Peter.jpg" class="d-block mx-auto" width="280" height="180" alt="Spider-Man Game">
+			</div>
+			<div class="col-6 col-md-4">
+				<h3 class="text-white text-overlay">Marvel Spider-Man Suits</h3>
+				<p class="spidey-blue text-overlay">
+					Suits are collectible and wearable items that grant active power-ups, called suit powers, in Marvel's 
+					Spider-Man. Suits first have to be unlocked, either by completing a specific mission, or reaching a 
+					certain level, and then purchased with tokens. While each suit comes with a signature power of its own, 
+					these can be swapped depending on players' gameplay style or preference. Players may also customize 
+					their suits with up to three suit mods, which grant various passive bonuses.
+				</p>
+				<img src="Resources\SMsuits.gif" class="d-block mx-auto" width="220" height="180" alt="Spider-Man 2 suits">
+			</div>
+		</div>
+
+		<hr>
+
+		<!-- Row 3: Responsive Behavior -->
+		<div class="row">
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<h3 class="text-white text-overlay">Marvel Spider-Man Miles Morales Suits</h3>
+				<p class="spidey-red text-overlay">
+					There are 19 suits available for Miles Morales, each offering different aesthetics and gameplay enhancements. 
+					Suits can be unlocked by completing specific missions, reaching certain levels, or collecting resources like 
+					Activity Tokens and Tech Parts. Each suit often comes with a suit mod, which provides passive bonuses that 
+					can enhance gameplay. For example, the Into the Spider-Verse Suit has a mod that allows it to mimic the 
+					aesthetic of different Spider-Verse characters.
+				</p>
+				<img src="Resources\SMMMsuits.gif" class="d-block mx-auto" width="180" height="220" alt="Spider-Man 2 suits">
+			</div>
+
+			<div class="col-sm-12 col-md-6 col-lg-8">
+				<h3 class="text-white text-overlay">Marvel Spider-Man 2 Suits</h3>
+				<p class="spidey-blue text-overlay">
+					There are 90 suits in the game: 68 in the base game, ten in the Digital Deluxe Edition, two purchasable in 
+					the Fly n' Fresh Suit Pack, and ten added through free updates. All suits also have three palette swaps 
+					known as Suit Styles, except for the Spider-Men's various live action and animated series suits, the Digital 
+					Deluxe Edition suits, the Fly and Fresh Suits, and the Hellfire Gala suits. For suits from the Spider-Verse 
+					animated films, the Screen Effect options Film Style Animation and Comic Book Effects go into effect.
+				</p>
+				<img src="Resources\SuitChoice.jpg" class="d-block mx-auto" width="280" height="180" alt="Spider-Man Game">
+			</div>
+		</div>
+
+    </div>
+
+  </body>
+</html>
