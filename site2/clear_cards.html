@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<link rel="icon" href="resources/icon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="color2.css" media="screen">
+	<link rel="stylesheet" href="color_print.css" media="print">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navigation & Forms Page Assignment</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+		<div>
+			<header>
+				<h1 class="display-3 fw-bold">Card Captor: Clear Card</h1>
+			</header>
+			<div>
+				<nav class="navbar navbar-expand-lg bg-cc-pink">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="#">
+						  <img src="resources/icon.ico" class="imgSize" alt="Bootstrap" width="30" height="24">
+						</a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+									<li class="nav-item">
+										<a class="nav-link active" aria-current="page" href="index2.html">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="https://ccsakura.fandom.com/wiki/Cardcaptor_Sakura:_Clear_Card">Link</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Dropdown
+										</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="character_update.html">Character Updates</a></li>
+											<li><a class="dropdown-item" href="clear_cards.html">Clear Cards</a></li>
+											<li><hr class="dropdown-divider"></li>
+											<li><a class="dropdown-item" href="form.html">Form</a></li>
+										</ul>
+									</li>
+									<div class="form-check form-switch">
+									  <input class="form-check-input" type="checkbox" role="switch" id="switchCheckChecked" checked>
+									  <label class="form-check-label" for="switchCheckChecked">Click me!</label>
+									</div>
+								</ul>
+							<form class="d-flex" role="search">
+								<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+								<button class="btn btn-outline-success" type="submit">Search</button>
+							</form>
+						</div>
+					</div>
+				</nav>
+			</div>
+				<script>
+				  document.getElementById("switchCheckChecked").addEventListener("change", function () {
+					if (!this.checked) {
+					  window.location.href = "chapter6.html";
+					}
+				  });
+				</script>
+			
+		</div>
+		
+		<div class="container mt-3">
+			<h1 class="display-5">Overview</h1>
+				<p class="fst-italic p-4">
+					At the end of the Clear Card arc Chapter 80, as a result of Sakura's Staff of Dreams influence on them, the Sakura Cards 
+					adopted the Clear Cards's appearance and receive 6 pointed-star symbol in their transformed form. The Clear Cards are new 
+					cards that started to appear after the Sakura Cards had turned blank and clear. It was revealed, in Chapter 23, that new 
+					cards were created by Sakura herself without realizing it, due to the growth of her magical powers. Unlike either the Clow 
+					Cards or Sakura Cards, they do not begin with "The" before the name of the card. In addition, the Clear Cards have two kanji 
+					in their Chinese/Japanese name, as opposed to one in the Clow Cards and Sakura Cards (with the exception of The Hope, which 
+					also has two kanji).
+				</p>
+		</div>
+		
+		<div class="container mt-3">
+			<h1 class="display-5">Clear Cards</h1>
+					<div class="col-md-3">
+						<div class="card" style="width: 18rem;">
+							<img src="resources/cc.png" class="card-img-top" alt="Clow Cards">
+							<div class="card-body">
+								<h1 class="display-6">Clear Cards</h1>
+								<p class="card-text">These cards have a transparent background with distinct front and back images, framed by gold sun‑and‑moon motifs and a seven‑pointed star. The front mirrors the Clow/Sakura layout with a central illustration, a star‑crowned title symbol above, and a ribboned name below set over a layered star emblem.</p>
+							</div>
+						</div>
+					</div>
+				<br>
+		</div>
+  </body>
+</html>
